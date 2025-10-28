@@ -1,4 +1,4 @@
 opencv-python
 numpy
-base64
+pybase64
 Pillow
