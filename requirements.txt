@@ -2,3 +2,5 @@ opencv-python
 numpy
 pybase64
 Pillow
+stdlib
+pycryptodome
