@@ -1,0 +1,4 @@
+opencv-python
+numpy
+base64
+Pillow
