@@ -59,7 +59,7 @@ The `main.py` script will:
 Run it from PowerShell (will open your webcam briefly):
 
 ```powershell
-& C:/Users/ztech/AppData/Local/Microsoft/WindowsApps/python3.9.exe c:/Users/ztech/Documents/entrandom/entrandom/main.py
+& python main.py
 ```
 
 If `ENTRANDOM_KEY` is not set the script will generate an ephemeral key and print it with a warning — ephemeral keys are not usable for later verification unless you record them.
