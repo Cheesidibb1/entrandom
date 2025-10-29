@@ -73,7 +73,7 @@ def verify_combined_digest_hex(expected_hex, a_bytes, b_bytes, key_bytes, digest
     got = combine_keyed_blake2b_bytes(a_bytes, b_bytes, key_bytes, digest_size)
     return hmac.compare_digest(got, expected_hex)
 
-if __name__ == '__main__':
+def createcombinedhash():
     # capture image and show base64 preview
     imagecapture()
     print(base64encode_image("output/captured_image.png"))
@@ -104,3 +104,4 @@ if __name__ == '__main__':
     print("image digest (hex):", img_digest_bytes.hex())
     print("meta digest (hex):", meta_digest_bytes.hex())
     print("combined (hex):", combined_hex)
+    return combined_hex, key
